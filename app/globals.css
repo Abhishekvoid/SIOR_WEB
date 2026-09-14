@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600&family=Noto+Sans+Telugu:wght@400;600&display=swap');
+
+:root {
+  /* Hardware Obsidian Void */
+  --sior-void: #05060a;
+  --sior-instrument-bg: #06080e;
+  --sior-line: rgba(234, 231, 225, 0.09);
+  --sior-line-bright: rgba(234, 231, 225, 0.22);
+
+  /* Zen Coral & Solar Vermilion (Zero Generic AI Blue!) */
+  --sior-zen-coral: #f76f53;
+  --sior-zen-coral-soft: rgba(247, 111, 83, 0.15);
+  --sior-zen-coral-border: rgba(247, 111, 83, 0.45);
+
+  /* Architectural Warm Off-White (Bone / Linen / Parchment — Zero Harsh Blinding White!) */
+  --sior-stark-white: #eae7e1;
+  --sior-off-white: #eae7e1;
+  --sior-off-white-bright: #f2efe9;
+  --sior-btn-bone: #eae7e1;
+  --sior-btn-bone-hover: #dedad2;
+  /* Solar Amber / Warm Gold (Development & Research Status — Zero Bubblegum Pink!) */
+  --sior-amber: #f59e0b;
+  --sior-amber-soft: rgba(245, 158, 11, 0.12);
+  --sior-amber-border: rgba(245, 158, 11, 0.35);
+  --sior-amber-glow: rgba(245, 158, 11, 0.08);
+
+  /* Modern Architectural Status Indicators (Zero Generic Green Pulsing Dots!) */
+  --sior-status-tag: #f76f53;
+  --sior-status-rail: #eae7e1;
+
+  /* Typography Colors (Warm Architectural Stone Palette) */
+  --sior-text-primary: #eae7e1;
+  --sior-text-secondary: #a8a59d;
+  --sior-text-muted: #615e57;
+
+  /* Font Stacks */
+  --font-sans: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+
+  /* Transitions */
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --trans-fast: 160ms var(--ease-expo);
+  --trans-smooth: 280ms var(--ease-expo);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+  background-color: var(--sior-void);
+}
+
+body {
+  background-color: var(--sior-void);
+  color: var(--sior-text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Precision Hairline Background Grid */
+.tech-grid-background {
+  position: fixed;
+  inset: 0;
+  background-image: 
+    linear-gradient(to right, rgba(234, 231, 225, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(234, 231, 225, 0.02) 1px, transparent 1px);
+  background-size: 64px 64px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--sior-void);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(234, 231, 225, 0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(247, 111, 83, 0.4);
+}
+
+/* Links Reset */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Accessibility Focus States */
+:focus-visible {
+  outline: 2px solid var(--sior-zen-coral);
+  outline-offset: 3px;
+}
+
+/* Specular Beam Sweep on Magnetic CTA */
+@keyframes specularSweep {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(120%); }
+}
+
+.specular-sweep {
+  animation: specularSweep 1.8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+/* Teenage Engineering Hardware Cassette Container */
+.hardware-cassette {
+  position: relative;
+  background: linear-gradient(180deg, rgba(12, 16, 26, 0.7) 0%, rgba(6, 8, 14, 0.92) 100%);
+  border: 1px solid var(--sior-line);
+  box-shadow: inset 0 1px 0 rgba(234, 231, 225, 0.06);
+  transition: all 220ms var(--ease-expo);
+}
+
+.hardware-cassette:hover {
+  border-color: var(--sior-amber-border);
+  box-shadow: inset 0 1px 0 rgba(245, 158, 11, 0.2), 0 8px 30px rgba(0, 0, 0, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Capability Architectural Rows */
+.capability-architectural-row:hover {
+  background-color: rgba(234, 231, 225, 0.015) !important;
+}
+
+@media (max-width: 900px) {
+  .capability-architectural-row {
+    grid-template-columns: 40px 1fr !important;
+    gap: 1.25rem !important;
+  }
+}
+
+/* Reduced Motion Fallbacks */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

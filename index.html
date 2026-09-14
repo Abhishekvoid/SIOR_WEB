@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIOR (Σείριος) — Hinglish Voice AI Agent & Sovereign Indic Execution Engine</title>
+  <meta name="description" content="SIOR is the voice-native AI agent for Hinglish and Indian vernacular languages. Autonomous tool execution for IRCTC, UPI, GST, and Parivahan.">
+  
+  <!-- Zen Browser Typography: Bricolage Grotesque + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;500;600&family=Noto+Sans+Telugu:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="index.css">
+
+  <!-- GSAP 3 & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body class="theme-zen-cosmic">
+  <!-- Interactive Magnetic Cursor Follower -->
+  <div class="magnetic-cursor" id="magnetic-cursor" aria-hidden="true"></div>
+
+  <!-- Drifting Petals Ambient Canvas -->
+  <canvas id="petal-canvas" aria-hidden="true"></canvas>
+
+  <!-- Technical Precision Grid & Vignette -->
+  <div class="tech-grid-canvas" aria-hidden="true"></div>
+  <div class="starlight-vignette" aria-hidden="true"></div>
+
+  <!-- Header Navigation -->
+  <header class="sior-nav" id="main-nav">
+    <div class="nav-container">
+      <a href="#" class="brand-link" id="brand-link">
+        <div class="brand-star-reticle">
+          <span class="reticle-star"></span>
+          <span class="reticle-ring"></span>
+        </div>
+        <div class="brand-meta">
+          <span class="brand-title">SIOR</span>
+          <span class="brand-origin">Σείριος • Voice AI</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#instrument" class="nav-link">Instrument</a>
+        <a href="#architecture" class="nav-link">Architecture</a>
+        <a href="#vision" class="nav-link">Indic Vision</a>
+        <a href="#adapters" class="nav-link">Ecosystem</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="telemetry-pill">
+          <span class="telemetry-bracket-tag">[LIVE]</span>
+          <span class="telemetry-text" id="telemetry-dialect">HINGLISH // 240ms</span>
+        </div>
+        <a href="#instrument" class="btn-magnetic btn-nav-cta" id="btn-open-terminal">
+          <span class="btn-text">Open Instrument</span>
+          <span class="btn-icon">↗</span>
+          <span class="btn-specular-beam" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Hero Section: Unobstructed Cosmic Sanctuary with Big Bold SIOR -->
+  <main>
+    <section class="sior-hero" id="hero">
+      <div class="hero-cosmic-backdrop" id="hero-backdrop" aria-hidden="true"></div>
+
+      <div class="hero-monumental-stage" id="hero-stage">
+        <!-- Architectural Crosshair Corner Markers -->
+        <div class="telemetry-bracket top-left" aria-hidden="true"></div>
+        <div class="telemetry-bracket top-right" aria-hidden="true"></div>
+
+        <div class="hero-badge-pill" id="hero-badge">
+          <span class="hero-badge-prefix">[STAR // A1V]</span>
+          <span class="badge-text">Σείριος (SIRIUS) • α CANIS MAJORIS • ZERO-LATENCY INDIC AGENT</span>
+        </div>
+
+        <!-- Big Bold Stark Architectural SIOR in Bricolage Grotesque -->
+        <div class="title-overflow-wrap">
+          <h1 class="hero-big-sior" id="hero-sior-title">
+            <span class="char">S</span><span class="char">I</span><span class="char">O</span><span class="char">R</span>
+          </h1>
+        </div>
+
+        <p class="hero-statement" id="hero-statement">
+          Voice AI for Indian Native Languages.<br>
+          Autonomous execution across sovereign digital rails.
+        </p>
+
+        <div class="hero-sub-meta" id="hero-meta">
+          <span class="meta-tag">Hinglish Core</span>
+          <span class="meta-sep">•</span>
+          <span class="meta-tag">Sub-250ms AST Compiler</span>
+          <span class="meta-sep">•</span>
+          <span class="meta-tag">22 Scheduled Indic Rails</span>
+        </div>
+
+        <!-- GSAP Magnetic High-Contrast Inverted CTA -->
+        <div class="hero-actions-row" id="hero-actions">
+          <a href="#instrument" class="btn-magnetic btn-stark-inverted" id="btn-hero-cta">
+            <span class="btn-text">Explore Acoustic Instrument</span>
+            <span class="btn-icon">↓</span>
+            <span class="btn-specular-beam" aria-hidden="true"></span>
+          </a>
+          <div class="hero-coords-pill">
+            <span class="coord-crosshair">+</span>
+            <span>RA 06h 45m 09s</span>
+            <span class="coords-sep">|</span>
+            <span>Dec -16° 42′ 58″</span>
+          </div>
+        </div>
+
+        <div class="telemetry-bracket bottom-left" aria-hidden="true"></div>
+        <div class="telemetry-bracket bottom-right" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- SECTION: Teenage Engineering Acoustic Instrument -->
+    <section class="sior-instrument-section" id="instrument">
+      <div class="instrument-wrapper">
+        <!-- Instrument Master Header -->
+        <div class="instrument-top-bar">
+          <div class="inst-brand-tag">
+            <span class="inst-tag-bracket">[01]</span>
+            <span class="inst-name">SIOR ACOUSTIC INSTRUMENT // SEIRIOS-01</span>
+          </div>
+          <div class="inst-telemetry-group">
+            <span class="inst-tel-item" id="inst-sample-rate">SAMPLE: 48.0 kHz</span>
+            <span class="inst-tel-sep">/</span>
+            <span class="inst-tel-item" id="inst-snr">SNR: 46 dB</span>
+            <span class="inst-tel-sep">/</span>
+            <span class="inst-tel-item" id="inst-timecode">TC: 06:45:09.24</span>
+          </div>
+        </div>
+
+        <!-- Live Fluid Mathematical Oscilloscope Canvas -->
+        <div class="oscilloscope-stage">
+          <div class="stage-crosshairs" aria-hidden="true">
+            <span class="ch-line h"></span>
+            <span class="ch-line v"></span>
+            <span class="ch-label top-left">+1.0 FS</span>
+            <span class="ch-label center-left">0.0 REF</span>
+            <span class="ch-label bottom-left">-1.0 FS</span>
+            <span class="ch-label bottom-right">HARMONIC AST FFT</span>
+          </div>
+          <canvas id="oscilloscope-canvas"></canvas>
+        </div>
+
+        <!-- Master Telemetry Data Rail (Zero Blue, Single-Line Monospace) -->
+        <div class="telemetry-data-rail" id="telemetry-rail">
+          <div class="rail-status-block">
+            <span class="rail-status-badge" id="rail-status-badge">[STANDBY]</span>
+            <span class="rail-status-tag" id="rail-status-tag">STANDBY_LISTENING</span>
+          </div>
+          <div class="rail-content-stream" id="rail-content-stream">
+            <span class="stream-segment mono" id="rail-tool-sig">READY // CRIS_IRCTC.TATKAL</span>
+            <span class="stream-sep">•</span>
+            <span class="stream-segment" id="rail-param-matrix">PARAMS: ORIGIN=BCT / DEST=NDLS / TRAIN=12951 / QUOTA=TATKAL</span>
+            <span class="stream-sep">•</span>
+            <span class="stream-segment" id="rail-auth-tag">AUTH: UPI_INTENT_AUTHORIZED</span>
+            <span class="stream-sep">•</span>
+            <span class="stream-segment speed" id="rail-speed-tag">240ms</span>
+          </div>
+        </div>
+
+        <!-- Large Editorial Typographic Phrase Selector -->
+        <div class="phrases-editorial-grid" id="phrases-grid">
+          <!-- Row 1 -->
+          <div class="phrase-row active" data-lang="hi_tatkal" id="phrase-row-1">
+            <div class="phrase-meta">
+              <span class="phrase-index">01</span>
+              <span class="phrase-system">CRIS // IRCTC</span>
+            </div>
+            <div class="phrase-text-wrap">
+              <span class="phrase-quote">"Bhai, Mumbai se Delhi Rajdhani mein Tatkal ticket book karo"</span>
+            </div>
+            <div class="phrase-dispatch-tag">
+              <span class="dispatch-fn">irctc.book_tatkal()</span>
+              <span class="dispatch-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="phrase-row" data-lang="hi_upi" id="phrase-row-2">
+            <div class="phrase-meta">
+              <span class="phrase-index">02</span>
+              <span class="phrase-system">NPCI // UPI</span>
+            </div>
+            <div class="phrase-text-wrap">
+              <span class="phrase-quote">"Ramesh ko ₹1,500 GPay kar de turant"</span>
+            </div>
+            <div class="phrase-dispatch-tag">
+              <span class="dispatch-fn">upi.instant_pay()</span>
+              <span class="dispatch-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="phrase-row" data-lang="hi_parivahan" id="phrase-row-3">
+            <div class="phrase-meta">
+              <span class="phrase-index">03</span>
+              <span class="phrase-system">MoRTH // PARIVAHAN</span>
+            </div>
+            <div class="phrase-text-wrap">
+              <span class="phrase-quote">"Mera driving license application status check karke batao"</span>
+            </div>
+            <div class="phrase-dispatch-tag">
+              <span class="dispatch-fn">parivahan.status()</span>
+              <span class="dispatch-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="phrase-row" data-lang="hi_gst" id="phrase-row-4">
+            <div class="phrase-meta">
+              <span class="phrase-index">04</span>
+              <span class="phrase-system">GSTN // TAX RAIL</span>
+            </div>
+            <div class="phrase-text-wrap">
+              <span class="phrase-quote">"Last month ka GST mismatch reconcile karke summary dikhao"</span>
+            </div>
+            <div class="phrase-dispatch-tag">
+              <span class="dispatch-fn">gst.audit_portal()</span>
+              <span class="dispatch-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- Row 5 -->
+          <div class="phrase-row" data-lang="hi_quick" id="phrase-row-5">
+            <div class="phrase-meta">
+              <span class="phrase-index">05</span>
+              <span class="phrase-system">ONDC // COMMERCE</span>
+            </div>
+            <div class="phrase-text-wrap">
+              <span class="phrase-quote">"Blinkit se 1 litre Amul milk aur brown bread order kar do"</span>
+            </div>
+            <div class="phrase-dispatch-tag">
+              <span class="dispatch-fn">blinkit.checkout()</span>
+              <span class="dispatch-arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instrument Action Bar -->
+        <div class="instrument-control-bar">
+          <div class="inst-mic-control">
+            <button class="btn-instrument-mic" id="btn-inst-mic" aria-label="Toggle Acoustic Trigger">
+              <span class="mic-status-indicator"></span>
+              <span class="mic-label">AUDIO INGESTION STREAM</span>
+            </button>
+            <span class="inst-mic-hint">Select any phrase above or trigger acoustic microphone ingestion</span>
+          </div>
+          <div class="inst-metrics-inline">
+            <div class="inst-m-cell">
+              <span class="m-val">240ms</span>
+              <span class="m-lbl">Acoustic-to-AST</span>
+            </div>
+            <div class="inst-m-cell">
+              <span class="m-val">99.8%</span>
+              <span class="m-lbl">Deterministic Grammar</span>
+            </div>
+            <div class="inst-m-cell">
+              <span class="m-val">22 Rails</span>
+              <span class="m-lbl">Sovereign Adapters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Architecture (Clean Swiss Architectural Matrix) -->
+    <section class="sior-section" id="architecture">
+      <div class="section-wrapper">
+        <div class="section-title-lockup">
+          <span class="spec-pill">
+            <span class="spec-prefix">ARCHITECTURE</span>
+            <span class="spec-body">ZERO-HALLUCINATION PIPELINE</span>
+          </span>
+          <h2 class="section-heading">How Spoken Hinglish Resolves into Deterministic APIs</h2>
+          <p class="section-desc">
+            Natural Indian conversations interweave Hindi and English vocabulary fluidly. SIOR compiles colloquial acoustic phonemes into deterministic JSON schemas.
+          </p>
+        </div>
+
+        <div class="architectural-matrix">
+          <!-- Step 1 -->
+          <div class="arch-cell">
+            <div class="arch-cell-top">
+              <span class="arch-step-index">01</span>
+              <span class="arch-tag">PHONOLOGY</span>
+            </div>
+            <h3 class="arch-title">Colloquial Code-Switching Normalizer</h3>
+            <p class="arch-body">
+              Acoustic streaming models decode mixed Hindi-English phonemes, dialect slang, and colloquial fillers without losing semantic context.
+            </p>
+            <div class="arch-foot">Indic Conformer-CTC • 48 kHz</div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="arch-cell">
+            <div class="arch-cell-top">
+              <span class="arch-step-index">02</span>
+              <span class="arch-tag">COMPILATION</span>
+            </div>
+            <h3 class="arch-title">Deterministic Intent & Slot Extraction</h3>
+            <p class="arch-body">
+              Extracts strict parameters: dates, UPI IDs, currency figures, PNR tokens, station codes, and portal authentication headers.
+            </p>
+            <div class="arch-foot">Grammar-Guided AST Extraction</div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="arch-cell">
+            <div class="arch-cell-top">
+              <span class="arch-step-index">03</span>
+              <span class="arch-tag">SAFETY</span>
+            </div>
+            <h3 class="arch-title">JSON Schema Validation & Safeguards</h3>
+            <p class="arch-body">
+              Eliminates LLM hallucination through strict cryptographic schema assertion before any network dispatch is triggered.
+            </p>
+            <div class="arch-foot">Type-Safe Boundary Validation</div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="arch-cell">
+            <div class="arch-cell-top">
+              <span class="arch-step-index">04</span>
+              <span class="arch-tag">EXECUTION</span>
+            </div>
+            <h3 class="arch-title">Sovereign Rail Dispatch</h3>
+            <p class="arch-body">
+              Autonomous execution across NPCI UPI switches, CRIS IRCTC reservation servers, GSTN networks, and DigiLocker repositories.
+            </p>
+            <div class="arch-foot">Sub-300ms Encrypted Transport</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Indic Vision (Architectural Typography Specimen) -->
+    <section class="sior-section" id="vision" style="background: #040508;">
+      <div class="section-wrapper">
+        <div class="section-title-lockup">
+          <span class="spec-pill">
+            <span class="spec-prefix">SOVEREIGN VISION</span>
+            <span class="spec-body">22 SCHEDULED LANGUAGES ROADMAP</span>
+          </span>
+          <h2 class="section-heading">From Hinglish to India's Multi-Native Future</h2>
+          <p class="section-desc">
+            While Hinglish powers our live active engine today, SIOR is systematically training acoustic decoders for all 22 Eighth Schedule languages of India.
+          </p>
+        </div>
+
+        <div class="language-specimen-grid">
+          <div class="specimen-cell">
+            <div class="specimen-header">
+              <span class="specimen-script">हिन्दी / Hinglish</span>
+              <span class="specimen-badge live">LIVE RUNTIME</span>
+            </div>
+            <span class="specimen-meta">600M+ Colloquial Speakers • Indo-Aryan</span>
+          </div>
+
+          <div class="specimen-cell">
+            <div class="specimen-header">
+              <span class="specimen-script">தமிழ் (Tamil)</span>
+              <span class="specimen-badge">PHASE 2 (Q3 26)</span>
+            </div>
+            <span class="specimen-meta">85M+ Native Speakers • Dravidian</span>
+          </div>
+
+          <div class="specimen-cell">
+            <div class="specimen-header">
+              <span class="specimen-script">తెలుగు (Telugu)</span>
+              <span class="specimen-badge">PHASE 2 (Q3 26)</span>
+            </div>
+            <span class="specimen-meta">95M+ Native Speakers • Dravidian</span>
+          </div>
+
+          <div class="specimen-cell">
+            <div class="specimen-header">
+              <span class="specimen-script">বাংলা (Bengali)</span>
+              <span class="specimen-badge">PHASE 2 (Q4 26)</span>
+            </div>
+            <span class="specimen-meta">100M+ Native Speakers • Eastern</span>
+          </div>
+
+          <div class="specimen-cell">
+            <div class="specimen-header">
+              <span class="specimen-script">मराठी (Marathi)</span>
+              <span class="specimen-badge">PHASE 3 (Q4 26)</span>
+            </div>
+            <span class="specimen-meta">83M+ Native Speakers • Western</span>
+          </div>
+
+          <div class="specimen-cell">
+            <div class="specimen-header">
+              <span class="specimen-script">ಕನ್ನಡ (Kannada)</span>
+              <span class="specimen-badge">PHASE 3 (Q1 27)</span>
+            </div>
+            <span class="specimen-meta">45M+ Native Speakers • Southern</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Ecosystem Adapters (Horizontal Strip) -->
+    <section class="sior-section" id="adapters">
+      <div class="section-wrapper">
+        <div class="section-title-lockup">
+          <span class="spec-pill">
+            <span class="spec-prefix">ECOSYSTEM</span>
+            <span class="spec-body">NATIVE DIGITAL INFRASTRUCTURE</span>
+          </span>
+          <h2 class="section-heading">Connected with Sovereign Indian Rails</h2>
+          <p class="section-desc">
+            Direct deterministic invocation into high-throughput digital public infrastructure and enterprise APIs.
+          </p>
+        </div>
+
+        <div class="adapters-strip">
+          <div class="adapter-item">
+            <div class="adp-num">01</div>
+            <div class="adp-meta">
+              <h3 class="adp-title">UPI Instant Settlements</h3>
+              <p class="adp-desc">Autonomous intent formulation for Google Pay, PhonePe, and BHIM in under 350ms.</p>
+              <span class="adp-code">upi.pay({ vpa: "user@bank", inr: 1500 })</span>
+            </div>
+          </div>
+
+          <div class="adapter-item">
+            <div class="adp-num">02</div>
+            <div class="adp-meta">
+              <h3 class="adp-title">IRCTC & Transit Execution</h3>
+              <p class="adp-desc">Instant PNR inquiries, Tatkal quota parameter formulation, and berth allocation across 12,000+ trains.</p>
+              <span class="adp-code">irctc.book({ train: 12951, quota: "TATKAL" })</span>
+            </div>
+          </div>
+
+          <div class="adapter-item">
+            <div class="adp-num">03</div>
+            <div class="adp-meta">
+              <h3 class="adp-title">GSTN & Tax Automation</h3>
+              <p class="adp-desc">Automated GST mismatch reconciliation, tax portal scraping, and voucher filing via spoken prompts.</p>
+              <span class="adp-code">gst.audit_r1({ gstin: "27AAACB2212R1Z0" })</span>
+            </div>
+          </div>
+
+          <div class="adapter-item">
+            <div class="adp-num">04</div>
+            <div class="adp-meta">
+              <h3 class="adp-title">Parivahan & DigiLocker</h3>
+              <p class="adp-desc">Authenticated driving licenses and citizen records retrieved via secure APIs.</p>
+              <span class="adp-code">digilocker.fetch({ doc: "DRIVING_LICENSE" })</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Technical Footer -->
+  <footer class="sior-footer">
+    <div class="footer-wrapper">
+      <div class="footer-tech-meta">
+        <div class="footer-brand">
+          <div class="brand-star-reticle small">
+            <span class="reticle-star"></span>
+          </div>
+          <span class="brand-title">SIOR</span>
+        </div>
+        <p class="footer-copy">
+          Sovereign Hinglish and Indic voice-native AI agent for autonomous real-world execution.
+        </p>
+        <div class="celestial-stamp">
+          ASTRONOMICAL IDENTIFIER: α CANIS MAJORIS (SIRIUS) • SPECTRAL CLASS: A1V
+        </div>
+      </div>
+
+      <div class="footer-spec-columns">
+        <div class="spec-col">
+          <span class="spec-col-title">ACOUSTICS</span>
+          <a href="#instrument">Harmonic Oscilloscope</a>
+          <a href="#vision">Multi-Native Roadmap</a>
+          <a href="#architecture">Speech-to-AST</a>
+        </div>
+        <div class="spec-col">
+          <span class="spec-col-title">SYSTEM</span>
+          <a href="DESIGN.md">DESIGN.md System</a>
+          <a href="#adapters">Ecosystem Adapters</a>
+          <a href="#instrument">Acoustic Instrument</a>
+        </div>
+        <div class="spec-col">
+          <span class="spec-col-title">SOVEREIGNTY</span>
+          <a href="#">India DPDP Act 2023</a>
+          <a href="#">NPCI UPI Rail Compliant</a>
+          <a href="#">Apache-2.0 License</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-line">
+      <span>© 2026 SIOR AI Systems. All rights reserved.</span>
+      <span class="bottom-hash">DEPLOYMENT: SEIRIOS_COSMIC_SANCTUARY_v5 // REGION: AP-SOUTH-1</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
