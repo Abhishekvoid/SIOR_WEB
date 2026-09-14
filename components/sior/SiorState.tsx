@@ -75,7 +75,8 @@ export const SiorState: React.FC<SiorStateProps> = ({
 
       {showDescription && (
         <span style={{ color: 'var(--sior-text-muted)', fontSize: '0.75rem' }}>
-          // {current.desc}
+          {'// '}
+          {current.desc}
         </span>
       )}
     </div>

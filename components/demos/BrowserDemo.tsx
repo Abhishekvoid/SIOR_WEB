@@ -199,7 +199,7 @@ export const BrowserDemo: React.FC<BrowserDemoProps> = ({ currentStep, stepIndex
               color: 'var(--sior-stark-white)',
             }}
           >
-            <div style={{ color: 'var(--sior-text-muted)', marginBottom: '0.25rem' }}>// BROWSER SESSION TELEMETRY</div>
+            <div style={{ color: 'var(--sior-text-muted)', marginBottom: '0.25rem' }}>{'//'} BROWSER SESSION TELEMETRY</div>
             <div>{currentStep.uiState}</div>
           </div>
 

@@ -115,7 +115,7 @@ export const PipelineDiagram: React.FC = () => {
             }}
           >
             <span style={{ color: 'var(--sior-zen-coral)', fontWeight: 700 }}>ARCHITECTURE</span>
-            <span style={{ color: 'var(--sior-text-secondary)' }}>// END-TO-END PIPELINE</span>
+            <span style={{ color: 'var(--sior-text-secondary)' }}>{'//'} END-TO-END PIPELINE</span>
           </div>
 
           <h2

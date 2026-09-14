@@ -189,7 +189,7 @@ export const DesktopDemo: React.FC<DesktopDemoProps> = ({ currentStep, stepIndex
               color: 'var(--sior-stark-white)',
             }}
           >
-            <div style={{ color: 'var(--sior-text-muted)', marginBottom: '0.25rem' }}>// TELEMETRY SNAPSHOT</div>
+            <div style={{ color: 'var(--sior-text-muted)', marginBottom: '0.25rem' }}>{'//'} TELEMETRY SNAPSHOT</div>
             <div>{currentStep.uiState}</div>
           </div>
 

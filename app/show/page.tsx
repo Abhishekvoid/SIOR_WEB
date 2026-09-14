@@ -93,7 +93,7 @@ export default function ShowPage() {
               }}
             >
               <span style={{ color: 'var(--sior-zen-coral)', fontWeight: 700 }}>[SIMULATED DEMONSTRATION]</span>
-              <span style={{ color: 'var(--sior-text-secondary)' }}>// ARCHITECTURAL PLAYBACK</span>
+              <span style={{ color: 'var(--sior-text-secondary)' }}>{'//'} ARCHITECTURAL PLAYBACK</span>
             </div>
 
             <h1

@@ -254,7 +254,7 @@ export const VisionPreview: React.FC<VisionPreviewProps> = ({ currentStep, stepI
               color: 'var(--sior-stark-white)',
             }}
           >
-            <div style={{ color: 'var(--sior-text-muted)', marginBottom: '0.25rem' }}>// VISION INFERENCE LOG</div>
+            <div style={{ color: 'var(--sior-text-muted)', marginBottom: '0.25rem' }}>{'//'} VISION INFERENCE LOG</div>
             <div>{currentStep.uiState}</div>
           </div>
 

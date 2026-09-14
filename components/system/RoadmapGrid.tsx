@@ -110,7 +110,7 @@ export const RoadmapGrid: React.FC = () => {
             >
               [RESEARCH ROADMAP]
             </span>
-            <span style={{ color: 'var(--sior-text-secondary)' }}>// MULTIMODAL PERCEPTION ENGINE</span>
+            <span style={{ color: 'var(--sior-text-secondary)' }}>{'//'} MULTIMODAL PERCEPTION ENGINE</span>
           </div>
 
           <h2

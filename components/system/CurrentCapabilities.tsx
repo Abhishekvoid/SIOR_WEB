@@ -34,7 +34,7 @@ export const CurrentCapabilities: React.FC = () => {
             }}
           >
             <span style={{ color: 'var(--sior-zen-coral)', fontWeight: 700 }}>VERIFIED CAPABILITIES</span>
-            <span style={{ color: 'var(--sior-text-secondary)' }}>// SYSTEM INTEGRITY MATRIX</span>
+            <span style={{ color: 'var(--sior-text-secondary)' }}>{'//'} SYSTEM INTEGRITY MATRIX</span>
           </div>
 
           <h2

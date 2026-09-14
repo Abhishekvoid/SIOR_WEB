@@ -62,7 +62,7 @@ export const AcousticInstrument: React.FC = () => {
             }}
           >
             <span style={{ color: 'var(--sior-zen-coral)', fontWeight: 700 }}>TEENAGE ENGINEERING</span>
-            <span style={{ color: 'var(--sior-text-secondary)' }}>// SEIRIOS-01 PHYSICAL CONSOLE</span>
+            <span style={{ color: 'var(--sior-text-secondary)' }}>{'//'} SEIRIOS-01 PHYSICAL CONSOLE</span>
           </div>
 
           <h2

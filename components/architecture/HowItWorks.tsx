@@ -88,7 +88,7 @@ export const HowItWorks: React.FC = () => {
             }}
           >
             <span style={{ color: 'var(--sior-zen-coral)', fontWeight: 700 }}>EXECUTION LOOP</span>
-            <span style={{ color: 'var(--sior-text-secondary)' }}>// ARCHITECTURAL DICHOTOMY</span>
+            <span style={{ color: 'var(--sior-text-secondary)' }}>{'//'} ARCHITECTURAL DICHOTOMY</span>
           </div>
 
           <h2
